@@ -54,6 +54,14 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+
+
+CORS_ALLOWED_ORIGINS = [
+"http://localhost:5173",
+"http://localhost:5174",
+"http://localhost:5175"
+]
+
 ROOT_URLCONF = 'project_form.urls'
 
 CORS_ALLOW_ALL_ORIGINS = True  # Or restrict to React frontend URL
